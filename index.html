@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexLand.css" media="screen and (orientation:landscape)">
+    <link rel="stylesheet" href="indexPort.css" media="screen and (orientation:portrait)">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Document</title>
+</head>
+<body>
+    <h1 data-aos="flip-up" data-aos-duration="2000">LET'S FLAMES</h1>
+    <div class="head">
+        <div class="inputs" data-aos="flip-down" data-aos-duration="2000">
+            <form method="get" id="form">
+               <label for="name">Your Name: </label>
+               <input type="text" name="text" id="name" placeholder="Your Name" pattern="[a-zA-Z]{1,}" required><br/>
+               <label for="crushName">Your Crush Name: </label>
+               <input type="text" name="text" id="crushName" placeholder="Your Crush Name" pattern="[a-zA-Z]{1,}" required>
+               <input type="button" value="FLAMES" id="btn">
+            </form>
+        </div>
+    </div>
+    <script class='script' src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+</body>
+</html>
