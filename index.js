@@ -51,6 +51,7 @@ flames = () =>{
         if(i == index){
            para[i].style.background='lightGreen';
            para[i].style.transform= 'scale(1.5,1.5)';
+           para[i].title = `Your RelationShip Between ${document.querySelector('#name').value} and ${document.querySelector('#crushName').value} is ${para[i].textContent}`;
         }
     }
     count++;
